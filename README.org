@@ -43,10 +43,6 @@
 ;; :quelpa keyword
 (use-package quelpa)
 (use-package quelpa-use-package)
-
-(use-package paradox
-  :config
-  (paradox-enable))
 #+end_src
 
 * Themes and appearance
@@ -495,25 +491,5 @@
 
 #+BEGIN_SRC emacs-lisp
 (use-package pcap-mode)
-#+END_SRC
-
-** Darkroom
-
-#+BEGIN_SRC emacs-lisp
-(use-package darkroom)
-#+END_SRC
-
-** Google Translate
-
-#+BEGIN_SRC emacs-lisp
-(use-package google-translate)
-#+END_SRC
-
-** jabber
-
-#+BEGIN_SRC emacs-lisp
-(use-package jabber)
-
-(use-package jabber-otr)
 #+END_SRC
 
